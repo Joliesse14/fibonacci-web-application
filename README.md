@@ -112,7 +112,7 @@ Enter a positive integer and submit the form to calculate the corresponding Fibo
 Run performance tests using ApacheBench, for example:
 
 ```bash
-ab -n 1000 -c 50 http://localhost/
+ab -n 1000 -c 50 http://localhost:8080/
 ```
 
 The generated results can be visualized with Gnuplot.
