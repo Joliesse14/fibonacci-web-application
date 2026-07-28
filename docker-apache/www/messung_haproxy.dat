@@ -1,0 +1,25 @@
+Clients Requests_per_sec
+0      0
+<<<<<<< HEAD
+20     6830.22 [#/sec] (mean)
+40     5451.10 [#/sec] (mean)
+60     6579.50 [#/sec] (mean)
+80     5534.68 [#/sec] (mean)
+100     6584.10 [#/sec] (mean)
+120     5544.77 [#/sec] (mean)
+140     6614.27 [#/sec] (mean)
+160     4365.49 [#/sec] (mean)
+180     4983.38 [#/sec] (mean)
+200     4314.34 [#/sec] (mean)
+=======
+20     11983.88 [#/sec] (mean)
+40     15177.18 [#/sec] (mean)
+60     15533.53 [#/sec] (mean)
+80     15485.86 [#/sec] (mean)
+100     15241.95 [#/sec] (mean)
+120     15038.18 [#/sec] (mean)
+140     16066.85 [#/sec] (mean)
+160     8658.84 [#/sec] (mean)
+180     7659.03 [#/sec] (mean)
+200     7496.31 [#/sec] (mean)
+>>>>>>> a57ebbd (Änderungen)

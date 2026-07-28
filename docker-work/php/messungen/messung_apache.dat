@@ -1,0 +1,12 @@
+Clients Requests_per_sec
+0 
+20     17358.17 [#/sec] (mean)
+40     17861.56 [#/sec] (mean)
+60     18242.79 [#/sec] (mean)
+80     17469.97 [#/sec] (mean)
+100     16701.61 [#/sec] (mean)
+120     17090.82 [#/sec] (mean)
+140     16837.88 [#/sec] (mean)
+160     9163.84 [#/sec] (mean)
+180     9206.30 [#/sec] (mean)
+200     9296.85 [#/sec] (mean)

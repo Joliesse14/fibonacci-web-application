@@ -1,0 +1,42 @@
+<?php
+session_start();
+if (!isset($_SESSION['userid'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci</title>
+</head>
+<body>
+
+<h2>Fibonacci</h2>
+
+<input type="number" id="number">
+<button onclick="calculate()">Calculate</button>
+
+<p id="result"></p>
+
+<script>
+function calculate() {
+    var number = document.getElementById("number").value;
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "fibu.php?number=" + number, true);
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.getElementById("result").innerHTML =
+                "Fibonacci = " + xhr.responseText;
+        }
+    };
+
+    xhr.send();
+}
+</script>
+<a href="logout.php">ausloggen</a>
+</body>
+</html>
